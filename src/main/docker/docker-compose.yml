@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+
+  db:
+    image: 'postgres:13.1-alpine'
+    container_name: db
+    environment:
+      - POSTGRES_USER=my-user
+      - POSTGRES_PASSWORD=my-password
+      - POSTGRES_DB=storeing
+    ports:
+      - "5432:5432"
