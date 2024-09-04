@@ -23,13 +23,6 @@ public class Cake {
     @Column(nullable = false)
     private String name;
 
-//    @Column
-//    @JsonIgnore
-//    private String photo;
-
-//    @Transient
-//    private byte[] photoFile;
-
     @Column(nullable = false)
     private String description;
 
